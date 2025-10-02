@@ -1,0 +1,188 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* Header & Hero Section */
+.hero-section {
+    background: #003366;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.fast-access-bar {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.fast-access-bar p {
+    margin: 0;
+    display: inline;
+}
+
+.countdown {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-top: 40px;
+}
+
+.warning {
+    font-size: 0.9em;
+    color: #ffdddd;
+    margin-top: 20px;
+}
+
+/* Modules */
+.module {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.module h2 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+}
+
+.module h3 {
+    color: #555;
+}
+
+/* Tables */
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+strong {
+    color: #d9534f;
+}
+
+/* CTA Section */
+.cta-section {
+    text-align: center;
+}
+
+.cta {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background 0.3s;
+}
+
+.cta.primary {
+    background: #0056b3;
+}
+
+.cta.primary:hover {
+    background: #004494;
+}
+
+.cta.secondary {
+    background: #5bc0de;
+}
+
+.cta.secondary:hover {
+    background: #46b8da;
+}
+
+.cta.tertiary {
+    background: #5cb85c;
+}
+
+.cta.tertiary:hover {
+    background: #4cae4c;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer-section {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.seo-keywords {
+    margin-top: 10px;
+    color: #aaa;
+}
+
+/* Responsive Design */
+@media(max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2em;
+    }
+
+    .fast-access-bar p {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .countdown {
+        display: block;
+        margin-left: 0;
+    }
+
+    .cta {
+        width: 100%;
+    }
+}
